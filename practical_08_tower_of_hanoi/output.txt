@@ -1,0 +1,12 @@
+Enter number of disks (1-20): 
+Steps to move 3 disk(s) from rod A to rod C using rod B:
+
+Move  1: disk 1 from A to C
+Move  2: disk 2 from A to B
+Move  3: disk 1 from C to B
+Move  4: disk 3 from A to C
+Move  5: disk 1 from B to A
+Move  6: disk 2 from B to C
+Move  7: disk 1 from A to C
+
+Total moves = 7 (2^3 - 1)

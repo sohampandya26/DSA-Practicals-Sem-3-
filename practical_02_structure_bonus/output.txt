@@ -1,0 +1,12 @@
+Number of employees (1-50): 
+Employee 1
+  ID     :   Name   :   Salary : 
+Employee 2
+  ID     :   Name   :   Salary : 
+Employee 3
+  ID     :   Name   :   Salary : 
+ID     Name                       Salary   Bonus(10%)
+-----------------------------------------------------
+101    Amit Verma               50000.00      5000.00
+102    Priya Shah               75000.50      7500.05
+103    Rahul Mehta              42000.00      4200.00

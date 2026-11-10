@@ -1,0 +1,28 @@
+Enter infix expression (no unicode symbols, use * for multiply):
+> 
+Symbol   Stack           Postfix so far
+--------------------------------------------
+(        (               
+A        (               A
++        (+              A
+B        (+              AB
+)                        AB+
+*        *               AB+
+(        *(              AB+
+C        *(              AB+C
++        *(+             AB+C
+D        *(+             AB+CD
+/        *(+/            AB+CD
+E        *(+/            AB+CDE
+)        *               AB+CDE/+
+-        -               AB+CDE/+*
+(        -(              AB+CDE/+*
+F        -(              AB+CDE/+*F
++        -(+             AB+CDE/+*F
+G        -(+             AB+CDE/+*FG
+*        -(+*            AB+CDE/+*FG
+H        -(+*            AB+CDE/+*FGH
+)        -               AB+CDE/+*FGH*+
+
+Infix   : (A+B)*(C+D/E)-(F+G*H)
+Postfix : AB+CDE/+*FGH*+-

@@ -1,0 +1,67 @@
+
+--- Hospital Menu ---
+1. Add patient
+2. Display all patients
+3. Update patient temperature
+0. Exit
+Choice: Enter details of patient 1:
+  Name        :   Age         :   Temperature : 
+--- Hospital Menu ---
+1. Add patient
+2. Display all patients
+3. Update patient temperature
+0. Exit
+Choice: Enter details of patient 2:
+  Name        :   Age         :   Temperature : 
+--- Hospital Menu ---
+1. Add patient
+2. Display all patients
+3. Update patient temperature
+0. Exit
+Choice: 1.  Name: Ravi Kumar           Age: 34  Temp: 98.6 F
+2.  Name: Sita Devi            Age: 28  Temp: 101.5 F
+
+--- Hospital Menu ---
+1. Add patient
+2. Display all patients
+3. Update patient temperature
+0. Exit
+Choice: Patient number: New temperature:   Temperature of Sita Devi updated to 98.2 F.
+  Temperature is within the normal range.
+
+--- Hospital Menu ---
+1. Add patient
+2. Display all patients
+3. Update patient temperature
+0. Exit
+Choice: Patient number: New temperature:   Temperature of Ravi Kumar updated to 94.0 F.
+  *** ALERT: Dangerously low body temperature! ***
+
+--- Hospital Menu ---
+1. Add patient
+2. Display all patients
+3. Update patient temperature
+0. Exit
+Choice: Patient number: Invalid patient number.
+
+--- Hospital Menu ---
+1. Add patient
+2. Display all patients
+3. Update patient temperature
+0. Exit
+Choice: Invalid choice.
+
+--- Hospital Menu ---
+1. Add patient
+2. Display all patients
+3. Update patient temperature
+0. Exit
+Choice: 1.  Name: Ravi Kumar           Age: 34  Temp: 94.0 F
+2.  Name: Sita Devi            Age: 28  Temp: 98.2 F
+
+--- Hospital Menu ---
+1. Add patient
+2. Display all patients
+3. Update patient temperature
+0. Exit
+Choice: Goodbye!

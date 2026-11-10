@@ -1,0 +1,26 @@
+array,description,n,algorithm,avg_time_us,comparisons
+A1,Small random (n=10),10,Bubble,0.20,45
+A1,Small random (n=10),10,Selection,0.15,45
+A1,Small random (n=10),10,Insertion,0.05,33
+A1,Small random (n=10),10,Merge,0.12,24
+A1,Small random (n=10),10,Quick,0.07,31
+A2,Medium random (n=100),100,Bubble,16.48,4944
+A2,Medium random (n=100),100,Selection,11.86,4950
+A2,Medium random (n=100),100,Insertion,1.29,2668
+A2,Medium random (n=100),100,Merge,1.41,553
+A2,Medium random (n=100),100,Quick,0.66,736
+A3,Large random (n=1000),1000,Bubble,1791.15,498419
+A3,Large random (n=1000),1000,Selection,1167.33,499500
+A3,Large random (n=1000),1000,Insertion,117.89,257842
+A3,Large random (n=1000),1000,Merge,37.11,8705
+A3,Large random (n=1000),1000,Quick,20.44,10893
+A4,Nearly sorted (n=1000),1000,Bubble,423.62,498174
+A4,Nearly sorted (n=1000),1000,Selection,1184.14,499500
+A4,Nearly sorted (n=1000),1000,Insertion,16.32,24194
+A4,Nearly sorted (n=1000),1000,Merge,17.52,5285
+A4,Nearly sorted (n=1000),1000,Quick,26.83,30650
+A5,Reverse sorted (n=1000),1000,Bubble,3317.81,499500
+A5,Reverse sorted (n=1000),1000,Selection,1177.58,499500
+A5,Reverse sorted (n=1000),1000,Insertion,298.67,499500
+A5,Reverse sorted (n=1000),1000,Merge,15.26,4932
+A5,Reverse sorted (n=1000),1000,Quick,314.48,499500

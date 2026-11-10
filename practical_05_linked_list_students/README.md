@@ -1,0 +1,183 @@
+# Practical 5: Student List - Singly Linked List
+
+## Problem Statement
+Dynamic list of enrolled students (unique roll numbers): add at beginning / middle / end, remove, display, search.
+
+## Concepts Used
+Singly linked list, dynamic memory (`malloc`/`free`)
+
+## Approach
+Node = roll number + next pointer. Duplicate rolls are rejected. Insert-at-position works for the middle; memory freed on exit.
+
+## Complexity
+| Time | Space |
+|------|-------|
+| Insert begin O(1), insert end/middle/delete/search O(n) | O(n) |
+
+## How to Run
+```bash
+gcc -Wall -std=c11 -o student_list student_list.c
+./student_list < input.txt
+```
+
+## Sample Input (`input.txt`)
+```
+3
+101
+3
+102
+3
+103
+1
+100
+2
+105
+3
+5
+6
+102
+6
+999
+4
+101
+4
+555
+3
+102
+5
+0
+```
+
+## Sample Output
+```
+
+--- Student List Menu ---
+1. Add at beginning
+2. Add at a position (middle)
+3. Add at end
+4. Remove student (admission cancel)
+5. Display all
+6. Search by roll number
+0. Exit
+Choice: Roll number: Student 101 added.
+
+--- Student List Menu ---
+1. Add at beginning
+2. Add at a position (middle)
+3. Add at end
+4. Remove student (admission cancel)
+5. Display all
+6. Search by roll number
+0. Exit
+Choice: Roll number: Student 102 added.
+
+--- Student List Menu ---
+1. Add at beginning
+2. Add at a position (middle)
+3. Add at end
+4. Remove student (admission cancel)
+5. Display all
+6. Search by roll number
+0. Exit
+Choice: Roll number: Student 103 added.
+
+--- Student List Menu ---
+1. Add at beginning
+2. Add at a position (middle)
+3. Add at end
+4. Remove student (admission cancel)
+5. Display all
+6. Search by roll number
+0. Exit
+Choice: Roll number: Student 100 added.
+
+--- Student List Menu ---
+1. Add at beginning
+2. Add at a position (middle)
+3. Add at end
+4. Remove student (admission cancel)
+5. Display all
+6. Search by roll number
+0. Exit
+Choice: Roll number: Position (1-based): Student 105 added.
+
+--- Student List Menu ---
+1. Add at beginning
+2. Add at a position (middle)
+3. Add at end
+4. Remove student (admission cancel)
+5. Display all
+6. Search by roll number
+0. Exit
+Choice: Enrolled students: 100 -> 101 -> 105 -> 102 -> 103 -> NULL
+
+--- Student List Menu ---
+1. Add at beginning
+2. Add at a position (middle)
+3. Add at end
+4. Remove student (admission cancel)
+5. Display all
+6. Search by roll number
+0. Exit
+Choice: Roll number to search: Student 102 found at position 4.
+
+--- Student List Menu ---
+1. Add at beginning
+2. Add at a position (middle)
+3. Add at end
+4. Remove student (admission cancel)
+5. Display all
+6. Search by roll number
+0. Exit
+Choice: Roll number to search: Student 999 not found.
+
+--- Student List Menu ---
+1. Add at beginning
+2. Add at a position (middle)
+3. Add at end
+4. Remove student (admission cancel)
+5. Display all
+6. Search by roll number
+0. Exit
+Choice: Roll number to remove: Student 101 removed.
+
+--- Student List Menu ---
+1. Add at beginning
+2. Add at a position (middle)
+3. Add at end
+4. Remove student (admission cancel)
+5. Display all
+6. Search by roll number
+0. Exit
+Choice: Roll number to remove: Student 555 not found.
+
+--- Student List Menu ---
+1. Add at beginning
+2. Add at a position (middle)
+3. Add at end
+4. Remove student (admission cancel)
+5. Display all
+6. Search by roll number
+0. Exit
+Choice: Roll number: Roll number 102 already exists (must be unique).
+
+--- Student List Menu ---
+1. Add at beginning
+2. Add at a position (middle)
+3. Add at end
+4. Remove student (admission cancel)
+5. Display all
+6. Search by roll number
+0. Exit
+Choice: Enrolled students: 100 -> 105 -> 102 -> 103 -> NULL
+
+--- Student List Menu ---
+1. Add at beginning
+2. Add at a position (middle)
+3. Add at end
+4. Remove student (admission cancel)
+5. Display all
+6. Search by roll number
+0. Exit
+Choice:
+```

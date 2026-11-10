@@ -1,0 +1,54 @@
+Sorting algorithm comparison (ascending order)
+Time = average over repetitions, Comparisons = key comparisons made
+
+A1 - Small random (n=10)
+Algorithm       Time (us)    Comparisons
+-------------------------------------------
+Bubble               0.20             45
+Selection            0.15             45
+Insertion            0.05             33
+Merge                0.12             24
+Quick                0.07             31
+Fastest: Insertion
+
+A2 - Medium random (n=100)
+Algorithm       Time (us)    Comparisons
+-------------------------------------------
+Bubble              16.48           4944
+Selection           11.86           4950
+Insertion            1.29           2668
+Merge                1.41            553
+Quick                0.66            736
+Fastest: Quick
+
+A3 - Large random (n=1000)
+Algorithm       Time (us)    Comparisons
+-------------------------------------------
+Bubble            1791.15         498419
+Selection         1167.33         499500
+Insertion          117.89         257842
+Merge               37.11           8705
+Quick               20.44          10893
+Fastest: Quick
+
+A4 - Nearly sorted (n=1000)
+Algorithm       Time (us)    Comparisons
+-------------------------------------------
+Bubble             423.62         498174
+Selection         1184.14         499500
+Insertion           16.32          24194
+Merge               17.52           5285
+Quick               26.83          30650
+Fastest: Insertion
+
+A5 - Reverse sorted (n=1000)
+Algorithm       Time (us)    Comparisons
+-------------------------------------------
+Bubble            3317.81         499500
+Selection         1177.58         499500
+Insertion          298.67         499500
+Merge               15.26           4932
+Quick              314.48         499500
+Fastest: Merge
+
+Results saved to results.csv

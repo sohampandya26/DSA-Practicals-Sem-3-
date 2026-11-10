@@ -1,0 +1,112 @@
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Kid's name: Aarav joined the line.
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Kid's name: Diya joined the line.
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Kid's name: Kabir joined the line.
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Kid's name: Mira joined the line.
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Kid's name: Neel joined the line.
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Kid's name: Line is full! Om cannot join.
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Line (front to back): Aarav <- Diya <- Kabir <- Mira <- Neel
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Next to be served: Aarav
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Served ice cream to Aarav. Enjoy!
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Served ice cream to Diya. Enjoy!
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Line (front to back): Kabir <- Mira <- Neel
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Kid's name: Om joined the line.
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Line (front to back): Kabir <- Mira <- Neel <- Om
+
+--- Ice Cream Truck Menu ---
+1. Join line
+2. Serve ice cream
+3. Next kid
+4. Show line
+0. Exit
+Choice: Goodbye!

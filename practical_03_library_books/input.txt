@@ -1,0 +1,15 @@
+Let Us C
+Yashavant Kanetkar
+350
+Data Structures Using C
+Reema Thareja
+625.50
+Introduction to Algorithms
+Thomas H. Cormen
+1250
+The C Programming Language
+Kernighan and Ritchie
+480
+Data Structures and Algorithms Made Easy
+Narasimha Karumanchi
+799

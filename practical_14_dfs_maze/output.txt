@@ -1,0 +1,23 @@
+Enter number of locations and paths: Enter 7 paths (u v):
+Enter entrance location and treasure location: 
+--- Maze adjacency matrix ---
+    0  1  2  3  4  5  6 
+ 0  0  1  1  0  0  0  0 
+ 1  1  0  0  1  1  0  0 
+ 2  1  0  0  0  0  1  1 
+ 3  0  1  0  0  0  0  0 
+ 4  0  1  0  0  0  0  1 
+ 5  0  0  1  0  0  0  0 
+ 6  0  0  1  0  1  0  0 
+
+--- DFS exploration ---
+Robot visits location 0
+Robot visits location 1
+Robot visits location 3
+Robot visits location 4
+Robot visits location 6
+Robot visits location 2
+Robot visits location 5   <-- TREASURE FOUND!
+
+Order of visit: 0 -> 1 -> 3 -> 4 -> 6 -> 2 -> 5
+Treasure was found at location 5.

@@ -1,0 +1,28 @@
+=== Part A: General company tree ===
+
+1. Preorder (manager before subordinates):
+Aditi Sharma (CEO)
+    Rohan Mehta (CTO)
+        Karan Patel (Dev Lead)
+            Ankit Rana (Developer)
+            Pooja Nair (Developer)
+        Simran Kaur (QA Lead)
+    Neha Gupta (CFO)
+        Manish Joshi (Accountant)
+    Vikram Singh (COO)
+
+2. Postorder (subordinates before manager):
+            Ankit Rana (Developer)
+            Pooja Nair (Developer)
+        Karan Patel (Dev Lead)
+        Simran Kaur (QA Lead)
+    Rohan Mehta (CTO)
+        Manish Joshi (Accountant)
+    Neha Gupta (CFO)
+    Vikram Singh (COO)
+Aditi Sharma (CEO)
+
+=== Part B: Binary hierarchy ===
+Inorder   (left, manager, right)       : A M1 B CEO C M2 D 
+Preorder  (manager, left, right)       : CEO M1 A B M2 C D 
+Postorder (subordinates before manager): A B M1 C D M2 CEO 

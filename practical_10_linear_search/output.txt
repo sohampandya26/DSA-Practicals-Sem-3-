@@ -1,0 +1,9 @@
+Number of books on the shelf (1-100): Enter the 8 book IDs in shelf order:
+
+Enter book ID to search (-1 to stop): Book 512 found at position 5 on the shelf (5 comparison(s)).
+
+Enter book ID to search (-1 to stop): Book 204 found at position 1 on the shelf (1 comparison(s)).
+
+Enter book ID to search (-1 to stop): Book 999 is not available (8 comparison(s)).
+
+Enter book ID to search (-1 to stop): Done.
